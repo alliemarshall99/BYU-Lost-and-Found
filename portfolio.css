@@ -1,12 +1,9 @@
-/* =========================
-   Portfolio Page (scoped)
-   ========================= */
+
 
 main.portfolio {
-  background: #fff;                     /* sit on white panels over your gray body bg */
+  background: #fff;                    
 }
 
-/* Big centered hero like your screenshot */
 .portfolio .intro {
   padding: clamp(24px, 6vw, 80px) clamp(16px, 4vw, 48px) 0;
   text-align: center;
@@ -61,7 +58,7 @@ main.portfolio {
   width: 100%;
   height: 100%;
   display: block;
-  aspect-ratio: 4 / 3;                  /* consistent tile ratio */
+  aspect-ratio: 4 / 3;                 
   object-fit: cover;
   object-position: center;
 }
