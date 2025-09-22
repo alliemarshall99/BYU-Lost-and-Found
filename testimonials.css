@@ -75,20 +75,3 @@ main.testimonials {
     font-size: clamp(18px, 5vw, 28px);
   }
 }
-/* --- Slightly more breathing room --- */
-
-main.locations {
-  padding: clamp(24px, 6vw, 64px);      /* was 16/4vw/40 */
-}
-
-.locations h2 {
-  margin-bottom: clamp(28px, 5vw, 56px); /* a bit more space under the title */
-}
-
-.locations .cards {
-  gap: clamp(18px, 3vw, 32px);          /* wider gaps between cards */
-}
-
-.locations .info {
-  padding: 22px 22px 26px;              /* more inner padding in cards */
-}
